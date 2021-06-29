@@ -1,5 +1,5 @@
 # go-template
-A template repository for individual projects in Go
+__description_here__
 
 ## Follow upstream template changes
 
