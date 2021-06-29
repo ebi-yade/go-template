@@ -20,3 +20,5 @@ jobs:
                  --header 'Accept: application/vnd.github.v3+json' \
             | jq --raw-output '.description')"
           echo $DESCRIPTION
+          sed -i "s/__description_here__/${DESCRIPTION}/g" ./README.md
+          git diff
